@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Node
+node_modules/
+*.log
+npm-debug.log*
+.yarn-integrity
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+uploads/
+*.pdf
+simulated_pdfs/
+llm_documents/
+synthetic_patients.json
+.env
+
+# Docker volumes
+postgres_data/
+etcd_data/
+minio_data/
+redis_data/
