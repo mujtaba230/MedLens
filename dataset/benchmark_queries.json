@@ -1,0 +1,27 @@
+[
+  {
+    "query": "What are the current medications for the patient with diabetes and hypertension?",
+    "expected_docs": ["diabetes_meds.pdf"],
+    "expected_answer": "metformin, lisinopril"
+  },
+  {
+    "query": "What was the impression of the chest X-ray?",
+    "expected_docs": ["chest_xray.pdf"],
+    "expected_answer": "no acute cardiopulmonary process"
+  },
+  {
+    "query": "What procedures were performed during the last admission?",
+    "expected_docs": ["discharge_summary.pdf"],
+    "expected_answer": "colonoscopy"
+  },
+  {
+    "query": "What is the patient's creatinine level?",
+    "expected_docs": ["lab_summary.pdf"],
+    "expected_answer": "1.0"
+  },
+  {
+    "query": "Describe the patient's symptoms and diagnosis.",
+    "expected_docs": ["progress_note.pdf"],
+    "expected_answer": "chest pain, hypertension"
+  }
+]
